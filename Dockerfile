@@ -1,5 +1,5 @@
-FROM almalinux:8
-LABEL maintainer "Chris Zervakis"
+FROM almalinux:8.9
+LABEL maintainer "William Welter"
 
 # Let systemd know it is executed inside a container.
 ENV container docker
